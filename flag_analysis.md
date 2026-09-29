@@ -36,7 +36,7 @@
 [Demonstrating Carry Rollover and ADC]
 
 ##### 1. First Operation: `add ax, [num2]` (0xFFFF + 1)
-* **Result in AX:** `0x0000`
+    * **Result in AX:** `0x0000`
 
     Carry Flag, 1. Unsigned overflow: 65,535 + 1 = 65,536 (exceeds 16-bit limit of 65,535).
 
